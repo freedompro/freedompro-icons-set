@@ -6,10 +6,13 @@
     "importer"
   ],
   "description": "![CI](https://github.com/microsoft/fluentui-system-icons/workflows/CI/badge.svg)",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/microsoft/fluentui-system-icons.git"
+  },
+  "publishConfig": {
+    "@freedompro:registry": "https://npm.pkg.github.com"
   }
 }
