@@ -31,6 +31,7 @@ jobs:
         run: npm ci
       - name: Build SVG library
         run: npm run build
+        working-directory: packages/svg-icons
       - name: Publish SVG library
         run: npm publish
         working-directory: packages/svg-icons
