@@ -30,8 +30,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build SVG library
-        run: |
-          npm publish
-      working-directory: packages/svg-icons
+        run: npm publish
+        working-directory: packages/svg-icons
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
